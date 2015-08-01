@@ -1,0 +1,57 @@
+html, body {
+    background: black;
+}
+
+.jumbotron {
+    padding: 10px;
+    background: dodgerblue;
+}
+
+.jumbotron img {
+    float: left;
+}
+
+.carousel {
+    height: 570px;
+}
+
+.carousel .row {
+    display: inline-block;
+}
+
+.carousel button {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.carousel .current-slide {
+    background-image: url(../images/bg1.jpg);
+    height: 100%;
+}
+
+.carousel .current-slide p {
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel .current-slide .student-name {
+    color: black;
+    -webkit-text-stroke: 1px white;
+    font-size: 70px;
+}
+
+.carousel .position-wrapper {
+    display: inline-block;
+    height: 10px;
+    width: 90%;
+    background-color: dimgrey;
+}
+
+.carousel .position-wrapper .position-indicator {
+    width: 40px;
+    height: 10px;
+    background-color: dodgerblue;
+    position: relative;
+}
